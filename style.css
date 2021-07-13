@@ -44,4 +44,36 @@ a {
 }
 .banner-image img {
   width: 556px;
+  height: 438px;
+}
+/* *********************
+ header styles end here
+ ***********************/
+
+/* *****************
+  main styles start
+ ***************** */
+section.player-blogs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 25px;
+  grid-column-gap: 30px;
+  margin: 30px 130px 0px 130px;
+  padding: 35px;
+}
+.blog {
+  background-color: #ffffff;
+  color: #18191f;
+  width: 284px;
+  height: 445px;
+  padding: 15px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.player-image img {
+  width: 282px;
+}
+
+.blog .player-bio p {
+  overflow: hidden;
 }
