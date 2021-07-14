@@ -23,7 +23,7 @@ footer {
 ************* */
 .banner {
   background-color: #2d25a0;
-  width: 1349px;
+  width: 1366px;
   height: 650px;
 }
 .header-info {
@@ -88,9 +88,6 @@ section.player-blogs {
   width: 282px;
 }
 
-.blog .player-bio p {
-  overflow: hidden;
-}
 /* ****************
  player section end
 ***************** */
@@ -169,7 +166,6 @@ media query
 /* ******************************
 when the browser width 360 or lower  
 ********************************** */
-
 @media screen and (max-width: 360px) {
   body {
     margin: 0;
@@ -224,6 +220,22 @@ when the browser width 360 or lower
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    margin: 160px 120px 0px 150px;
+    margin: 45px 0px 0px 0px;
+  }
+  .watch-now-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 320px;
+    height: 299px;
+  }
+  .watch-now-info h1 {
+    font-size: 22px;
+    margin: 0;
+  }
+
+  .watch-now-image img {
+    width: 300px;
+    height: 248px;
   }
 }
