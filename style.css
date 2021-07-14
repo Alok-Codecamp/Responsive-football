@@ -183,8 +183,7 @@ when the browser width 360 or lower
   .header-info {
     display: flex;
     flex-direction: column;
-    
-    justify-content: space-between;
+    align-items: center;
   }
   .banner-text {
     margin-left: 16px;
