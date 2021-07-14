@@ -29,8 +29,15 @@ footer {
   margin: 0px 0px 0 0px;
   justify-content: space-around;
 }
+.banner-text {
+  margin-left: 108px;
+}
 .banner-text h1 {
   color: #ffffff;
+  width: 485px;
+  height: 230px;
+  font-size: 64px;
+  font-weight: 700;
 }
 .banner-text p.watch-live-button {
   display: flex;
@@ -89,12 +96,31 @@ section.player-blogs {
 section.highlight-copa-america {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin: 160px 120px 0px 150px;
 }
+
 .watch-now-info {
+  width: 469px;
   height: 309px;
-  width: 466px;
 }
+.watch-now-info h1 {
+  font-size: 48px;
+  margin: 0;
+}
+.watch-now-button {
+  background-color: #e02c6d;
+  width: 173px;
+  height: 44px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+p.watch-now-button,
+.watch-now-button a {
+  color: #ffffff;
+}
+
 .watch-now-image img {
   width: 532px;
 }
