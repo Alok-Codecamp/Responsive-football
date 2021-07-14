@@ -183,11 +183,11 @@ when the browser width 360 or lower
   .header-info {
     display: flex;
     flex-direction: column;
-    margin: 0;
+    
     justify-content: space-between;
   }
   .banner-text {
-    /* margin-left: 16px; */
+    margin-left: 16px;
   }
   .banner-text h1 {
     color: #ffffff;
@@ -205,6 +205,11 @@ when the browser width 360 or lower
   .banner-image img {
     width: 329px;
     height: 259px;
+  }
+  
+  .header-info:hover .banner-image {
+    transform: scale(0.8, 0.8);
+    transition: transform 1s;
   }
   /* header end  */
 
