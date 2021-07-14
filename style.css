@@ -15,6 +15,8 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 150px;
+  margin-bottom: 65px;
 }
 /* *************
  header styles
@@ -127,6 +129,101 @@ p.watch-now-button,
 
 /* copa america section end */
 
+/* ***************** 
+  footer start here 
+ ***************** */
+
 .logo img {
-  height: 70px;
+  width: 480px;
+}
+.social-icon {
+  margin-top: 20px;
+}
+.social-icon span {
+  background-color: #e7e7e8;
+  width: 32px;
+  height: 32px;
+  margin-left: 15px;
+  border-radius: 18px;
+  display: inline-block;
+}
+.social-icon i {
+  color: #969bab;
+  position: relative;
+  left: 8px;
+  top: 4px;
+}
+
+p.copy-right {
+  color: #000000;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+/* footer end  */
+
+/* *************
+media query 
+**************** */
+
+/* ******************************
+when the browser width 360 or lower  
+********************************** */
+
+@media screen and (max-width: 360px) {
+  body {
+    margin: 0;
+  }
+  /* header area  */
+  .banner {
+    background-color: #2d25a0;
+    width: 360px;
+    height: 695px;
+  }
+  .header-info {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 0 0px;
+    justify-content: space-between;
+  }
+  .banner-text {
+    margin-left: 16px;
+  }
+  .banner-text h1 {
+    color: #ffffff;
+    width: 278px;
+    height: 138px;
+    font-size: 36px;
+    font-weight: 700;
+  }
+  .banner-text p.watch-live-button {
+    margin-top: 30px;
+  }
+  .banner-image {
+    margin-top: 50px;
+  }
+  .banner-image img {
+    width: 329px;
+    height: 259px;
+  }
+  /* header end  */
+
+  /* main start  */
+  section.player-blogs {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* grid-row-gap: 25px; */
+    grid-column-gap: 30px;
+    margin: 30px 0px 0px 0px;
+    padding: 15px;
+  }
+
+  /* copa america section  */
+  section.highlight-copa-america {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 160px 120px 0px 150px;
+  }
 }
