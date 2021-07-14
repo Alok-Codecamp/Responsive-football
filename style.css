@@ -170,7 +170,7 @@ media query
 /* ******************************
 when the browser width 360 or lower  
 ********************************** */
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 480px) {
   body {
     margin: 0;
   }
