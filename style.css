@@ -28,7 +28,7 @@ footer {
 }
 .header-info {
   display: flex;
-  padding: 0px 113px 0px 80px;
+  padding: 100px 113px 0px 80px;
   justify-content: space-around;
 }
 .banner-text {
@@ -60,6 +60,9 @@ footer {
   width: 556px;
   height: 438px;
 }
+.header-info:hover .banner-image{
+  transform:scale (0.8,0.8);
+  transition:1s;
 /* *********************
  header styles end here
  ***********************/
